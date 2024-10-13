@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link href="/">
             <img
-              src="/rokomari_logo.png"
+              src="/tolax1.png"
               alt="Rokomari Logo"
               className="h-10 relative bottom-1"
             />

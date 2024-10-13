@@ -22,33 +22,39 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>লেখক</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid grid-cols-3  gap-5 w-[30vw] h-[30vh]">
-              {authors.map((author, index) => (
-                <li key={index} className="row-span-3">
-                  {author}
-                </li>
+            <div className=" grid gap-3  p-6 max-h-[70vh] overflow-auto ">
+              {authors.map((item, index) => (
+                <div
+                  className="p-2 rounded-md w-full hover:bg-slate-100 cursor-pointer text-sm"
+                  key={index}
+                >
+                  {item}
+                </div>
               ))}
-            </ul>
+            </div>
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>বিষয়</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className=" bg-red-300 grid grid-cols-3  gap-5 w-[30vw] h-[30vh]">
-              {subjects.map((subject, index) => (
-                <div key={index}>
-                  {subject}
+            <div className=" grid gap-3 max-w-[12rem] p-6 max-h-[70vh] overflow-auto ">
+              {subjects.map((item, index) => (
+                <div
+                  className="p-2 rounded-md w-full hover:bg-slate-100 cursor-pointer text-sm"
+                  key={index}
+                >
+                  {item}
                 </div>
               ))}
             </div>
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        {categories.map((category, index) => (
+        {categories.map((item, index) => (
           <NavigationMenuItem key={index}>
             <Link href="/docs" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                {category}
+                {item}
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>

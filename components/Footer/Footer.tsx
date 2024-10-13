@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="mx-auto max-w-7xl space-y-8 px-4 py-6 sm:px-6 lg:space-y-5 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="text-teal-600">
-           <img src="/rokomari_logo.png" alt="" className="h-10" />
+           <img src="/tolax1.png" alt="" className="h-10" />
           </div>
 
           <ul className=" flex justify-start gap-6 sm:mt-0 sm:justify-end">

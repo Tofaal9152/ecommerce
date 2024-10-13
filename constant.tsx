@@ -87,3 +87,63 @@ export const categories = [
     "পশ্চিমবঙ্গের বই",
     "অতিরিক্ত ছাড়ের বই",
   ];
+export const SuggestionProducts=[
+    {
+        id: 1,
+        name: "iMac 27”",
+        description: "This generation has some improvements, including a longer continuous battery life.",
+        oldPrice: "$399,99",
+        newPrice: "$299",
+        image: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg",
+        darkImage: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front-dark.svg",
+      },
+      {
+        id: 2,
+        name: "Playstation 5",
+        description: "This generation has some improvements, including a longer continuous battery life.",
+        oldPrice: "$799,99",
+        newPrice: "$499",
+        image: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/ps5-light.svg",
+        darkImage: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/ps5-dark.svg",
+      },
+      {
+        id: 3,
+        name: "Apple Watch Series 8",
+        description: "This generation has some improvements, including a longer continuous battery life.",
+        oldPrice: "$1799,99",
+        newPrice: "$1199",
+        image: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/apple-watch-light.svg",
+        darkImage: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/apple-watch-dark.svg",
+      },
+] 
+export const cartItems = [
+    {
+      id: 1,
+      name: "PC system All in One APPLE iMac (2023) mqrq3ro/a, Apple M3, 24 Retina 4.5K, 8GB, SSD 256GB, 10-core GPU, Keyboard layout INT",
+      image: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg",
+      price: 1499,
+      quantity: 2,
+    },
+    {
+      id: 1,
+      name: "PC system All in One APPLE iMac (2023) mqrq3ro/a, Apple M3, 24 Retina 4.5K, 8GB, SSD 256GB, 10-core GPU, Keyboard layout INT",
+      image: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg",
+      price: 1499,
+      quantity: 2,
+    },
+    {
+      id: 1,
+      name: "PC system All in One APPLE iMac (2023) mqrq3ro/a, Apple M3, 24 Retina 4.5K, 8GB, SSD 256GB, 10-core GPU, Keyboard layout INT",
+      image: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg",
+      price: 1499,
+      quantity: 2,
+    },
+    {
+      id: 1,
+      name: "PC system All in One APPLE iMac (2023) mqrq3ro/a, Apple M3, 24 Retina 4.5K, 8GB, SSD 256GB, 10-core GPU, Keyboard layout INT",
+      image: "https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg",
+      price: 1499,
+      quantity: 2,
+    },
+
+  ];
