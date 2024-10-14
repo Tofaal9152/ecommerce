@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-6">
           {/* Sign In */}
           <Link
-            href="/signin"
+            href="/auth"
             className="flex items-center space-x-2 text-gray-600 hover:text-black"
           >
             <User2 className="w-5 h-5" />

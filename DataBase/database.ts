@@ -2,8 +2,8 @@ import mongoose from "mongoose";
 
 const database = async () => {
     try {
-        await mongoose.connect(process.env.DATABASE_URI,{
-            dbName:"resturant",
+        await mongoose.connect(process.env.DATABASE_URI!,{
+            dbName:"ecommerce",
         })
         const connection = mongoose.connection
         

@@ -36,13 +36,13 @@ const Search = () => {
   return (
     <div className="flex-grow mx-4">
       <div className="relative flex items-center justify-between max-w-lg w-full border rounded-full py-2  pr-4 text-sm focus:outline-none border-blue-600">
-        <IoIosSearch size={20} className="text-blue-500 mx-2" />
         <input
           type="text"
           placeholder={currentPlaceholder} // Use dynamic placeholder
-          className="outline-none w-full" // Add a custom class for placeholder color
+          className="outline-none w-full ml-3" // Add a custom class for placeholder color
  
         />
+        <IoIosSearch size={20} className="text-blue-500" />
       </div>
     </div>
   );
